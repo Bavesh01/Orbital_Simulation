@@ -59,7 +59,7 @@ end
 figure;
 [X,Y,Z] = sphere;
 zp=xp;
-comet3(xp,yp,zp);
+view(-160,20)
 hold on;
 daspect([1,1,1]);
 r = R;
@@ -77,4 +77,4 @@ mars=surf(X3,Y3+5*R,Z3);
 set(mars, 'FaceColor', [197/255, 166/255, 135/255]);
 mars.EdgeColor = 'none';
 mars.FaceLighting = 'none';
- 
+comet3(xp,yp,zp);
